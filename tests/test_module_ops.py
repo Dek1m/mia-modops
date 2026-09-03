@@ -104,11 +104,13 @@ def test_reload_local_forbidden_core(name: str) -> None:
 
 def test_reload_local_blocked_by_loaded_dependent() -> None:
     modules = FakeModules()
-    modules._loaded["notification"] = object()
-    with pytest.raises(ForbiddenError) as exc:
-        reload_local(_app(modules), "fs")
-    assert modules.unloaded == []
-    assert exc.value.code == "FORBIDDEN"
+    modules._loaded["workspace"] = object()
+    modules._metas["workspace"] = ModuleMeta(dependencies=["fs"])
+    app = _app(modules)
+    reload_local(app, "fs")
+    assert modules.unloaded == ["fs"]
+    assert modules.loaded == [("fs", app)]
+    assert "workspace" in modules._loaded
 
 
 @pytest.mark.asyncio

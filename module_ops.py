@@ -48,7 +48,6 @@ def reload_local(app: Any, name: str) -> None:
     """unload + purge + load в этом процессе, затем runtime HASH и collect."""
     key = _require_name(name)
     _forbid_core(key)
-    _forbid_dependents(app, key)
     app.modules.unload(key)
     purge_import(key)
     app.modules.load(key, state=app)

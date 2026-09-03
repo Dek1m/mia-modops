@@ -4,14 +4,14 @@
     "__init__.py": "1dc8bc592f6b4d9bc32ec289001301f6d45c72f8a5b2619f1b198c717bb48ebc",
     "errors.py": "ac7bbd982091bd01e58d4d242d8a119a583bc4b18ada4a928bc659bc5602434d",
     "module_git.py": "70839d5ef2845ba727c989699c86795700640f036a5a5fc67b61e0f69d135846",
-    "module_ops.py": "c43fcb6d543e886051d71d4567dd3514176a2d83b679ce12f08019fd336a32d7",
+    "module_ops.py": "7e56774ac5eeb10c761e7a8d307165e09ca43e2f246181647dd2bdc66f10b945",
     "provider.py": "5d95b6b81ac7224ac7d0e5ccfc9b5ad9989dbe599269f00073dfeadd0f28a198",
     "schema.py": "09835e8c65d67333c4981c686b84513fab2de21e20b2ce6de4eb3206134a484e",
     "tests/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
     "tests/conftest.py": "4c42170ffbd6c8c79dab39c1b5cc5bfbbda293f1663f94195f86709950657f66",
     "tests/test_module_git.py": "00e40387a6e402c081a71a6de9b1b5f65cfd8013c504c8b841747e29ef784ed3",
-    "tests/test_module_ops.py": "d29838917c20f05ec48ea6a9937a4c1e087ab24f34f9819c959df3e8a06ac045",
+    "tests/test_module_ops.py": "9617676805b279daf4e73ddac8d2bf5c1576600f7093909a0e4f1840f09deac5",
     "tests/test_modules_list.py": "4d49f7b48af1db6ad089c9fe87bc25d7c6af14be010a9a1a74e254d8780d957b"
   },
-  "manifest_hash": "df0987ae792acd8c8ebfbcefc545af22a21db799fdb5b2c766f77e41ab942ff9"
+  "manifest_hash": "c4438953d6eb7e0b767d136bfc3bcdd2ad45ab34e24138d7413ef67dffa59a4b"
 }
